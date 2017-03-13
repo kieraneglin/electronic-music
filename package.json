@@ -1,7 +1,7 @@
 {
-  "name": "laniakea-gui",
-  "productName": "Laniakea GUI",
-  "description": "A GUI for Laniakea ROM Renamer",
+  "name": "electronic-music",
+  "productName": "Electronic Music",
+  "description": "A Electron and Angular powered music player",
   "version": "0.0.1",
   "author": "Kieran Eglin",
   "license": "MIT",
@@ -50,5 +50,17 @@
     "rollup-plugin-istanbul": "^1.1.0",
     "source-map-support": "^0.4.2",
     "spectron": "^3.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kieraneglin/electronic-music.git"
+  },
+  "keywords": [
+    "Music",
+    "Angular"
+  ],
+  "bugs": {
+    "url": "https://github.com/kieraneglin/electronic-music/issues"
+  },
+  "homepage": "https://github.com/kieraneglin/electronic-music#readme"
 }

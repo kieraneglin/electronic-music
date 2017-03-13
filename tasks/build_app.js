@@ -25,8 +25,13 @@ gulp.task('angular', function () {
   ];
 
   return gulp.src(files)
-      .pipe(concat('angular.js'))
+      .pipe(concat('angular_scripts.js'))
       .pipe(gulp.dest('app'));
+});
+
+gulp.task('es6-classes', function(){
+  gulp.src('src/angular/classes/**/*.js')
+  .pipe(gulp.dest('app/classes'));
 });
 
 gulp.task('sass', function () {
@@ -60,4 +65,4 @@ gulp.task('watch', function () {
     }));
 });
 
-gulp.task('build', ['bundle', 'sass', 'environment', 'angular']);
+gulp.task('build', ['bundle', 'sass', 'environment', 'angular', 'es6-classes']);
