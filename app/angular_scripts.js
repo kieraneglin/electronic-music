@@ -6,7 +6,8 @@ const fs = require('fs'),
   os = require('os'),
   path = require('path'),
   mm = require('musicmetadata'),
-  async = require('async');
+  dotenv = require('dotenv').config(),
+  LastfmAPI = require('lastfmapi');
 
 const Song = require('./classes/song');
 const SongHelpers = require('./classes/helpers/song-helpers');

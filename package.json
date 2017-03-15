@@ -28,8 +28,9 @@
   },
   "dependencies": {
     "angular": "^1.6.2",
-    "async": "^2.1.5",
+    "dotenv": "^4.0.0",
     "fs-jetpack": "^0.12.0",
+    "lastfmapi": "^0.1.1",
     "musicmetadata": "^2.0.5"
   },
   "devDependencies": {
